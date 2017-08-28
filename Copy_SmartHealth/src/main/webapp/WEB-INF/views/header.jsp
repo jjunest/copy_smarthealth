@@ -7,36 +7,34 @@
 <%--ContextPath 선언 --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-
 
 	<style type="text/css">
+	@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+	
+body{
+font-size: 22px;
+}
 .navbar-brand {
 	background-image: url('resources/images/logo.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 230px;
+	width: 200px;
 }
 
 .navbar {
-	
+margin-bottom:0px;
 }
+
+.navbar-default{
+background-color: white;
+border-color : white;
+
+}
+
 </style>
 	<br>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" >
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -48,6 +46,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
+				<li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
 				<li id="nav_companyIntros"><a href="companyIntros">회사소개</a></li>
 				<li id="nav_checkupInfos" class="dropdown"><a
 					class="dropdown-toggle" data-toggle="dropdown" href="#">건강검진정보
@@ -70,5 +69,4 @@
 
 
 
-</body>
 </html>
