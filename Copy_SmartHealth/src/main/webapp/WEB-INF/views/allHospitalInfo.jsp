@@ -17,32 +17,35 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<style type = "text/css">
+<style type="text/css">
 @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
 
 body {
 	font-family: 'Hanna', sans-serif;
 	font-size: 30px
 }
-
-
 </style>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="sub_menulabel.jsp"></jsp:include>
+
+
+	<jsp:include page="footer.jsp"></jsp:include>
 
 	<script>
 		// html dom 이 다 로딩된 후 실행된다.
 		$(document).ready(function() {
-		
-			var urlpath = $(location).attr("pathname");
 	
-		
+			/* navigation menu 주소에 따라서 active 설정 시작 */
+			var urlpath = $(location).attr("pathname");
 			if (urlpath.includes("/smarthealth/allHospitalInfo")) {
-		
-			
+	
 				$("#nav_allHospitalInfo").addClass("active");
+				$("#sub_menulabel_name").text("전국검진병원");
+				$("#sub_menulabel_loc").text("홈 > 전국검진병원");
 			}
-
+			/* navigation menu 주소에 따라서 active 설정 끝 */
+	
 		});
 	</script>
 
