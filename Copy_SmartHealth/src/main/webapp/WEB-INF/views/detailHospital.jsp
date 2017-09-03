@@ -32,7 +32,32 @@ body {
 
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="sub_menulabel.jsp"></jsp:include>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8" style="">
 
+				<h2 style="text-align: center; padding: 20px">병원 이름</h2>
+				<p
+					style="width: 90%; background: #27487e; padding: 25px; color: white; margin: 0px 5%; font-size: 20px; text-align: center;">
+					<strong style="font-size: 30px; font-weight: 600;">50%
+						할인이벤트 진행중!</strong> <br> <br> "( 기간 : 8월 1일 ~ 8월 31일 )" <br>
+					<b> ※ 대학병원급 시설※ </b> <br> <b>※ 추가비용 절대 없음※ </b>
+				</p>
+
+
+
+			</div>
+
+
+
+
+
+
+			<div class="col-sm-2" ></div>
+		</div>
+
+	</div>
 
 	<jsp:include page="footer.jsp"></jsp:include>
 
@@ -42,11 +67,11 @@ body {
 	
 			/* navigation menu 주소에 따라서 active 설정 시작 */
 			var urlpath = $(location).attr("pathname");
-			if (urlpath.includes("/smarthealth/checkupInfos")) {
+			if (urlpath.includes("/smarthealth/detailHospital")) {
 	
-				$("#nav_checkupInfos").addClass("active");
-				$("#sub_menulabel_name").text("건강검진정보");
-				$("#sub_menulabel_loc").text("홈 > 건강검진정보");
+			
+				$("#sub_menulabel_name").text("병원 상세정보");
+				$("#sub_menulabel_loc").text("병원 상세정보 보기");
 			}
 			/* navigation menu 주소에 따라서 active 설정 끝 */
 	

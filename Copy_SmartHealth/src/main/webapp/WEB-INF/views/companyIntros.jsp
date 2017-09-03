@@ -25,16 +25,7 @@ body {
 	font-size: 30px
 }
 
-#floatMenu {
-	/* 	position: absolute;
-	width: 200px;
-	height: 200px;
-	right: 50px;
-	top: 250px;
-	background-color: #606060;
-	color: #fff; */
-	
-}
+
 
 
 </style>
@@ -82,9 +73,8 @@ body {
 
 
 
-			<div class="col-sm-2 widget"
-				style="background: blue; height: 100%;">
-				<div id="floatMenu">플로팅 메뉴</div>
+			<div class="col-sm-2 widget">
+		
 			</div>
 
 		</div>

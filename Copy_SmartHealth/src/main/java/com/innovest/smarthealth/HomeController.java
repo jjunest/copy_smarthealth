@@ -76,6 +76,14 @@ public class HomeController {
 		return "allHospitalInfo";
 	}
 
+	@RequestMapping("/detailHospital")
+	public String detailHospital(Model model) {
+
+		System.out.println("this is detailHospital");
+
+		return "detailHospital";
+	}
+	
 	@RequestMapping("/header")
 	public String header(Model model) {
 
