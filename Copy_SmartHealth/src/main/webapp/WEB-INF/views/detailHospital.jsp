@@ -17,7 +17,7 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<style type = "text/css">
+<style type="text/css">
 @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
 
 body {
@@ -25,7 +25,21 @@ body {
 	font-size: 30px
 }
 
+.detailhos_col1 {
+	width: 30%;
+	text-align: center;
+	background: #f4f4f4;
+	padding: 3cm;
+}
 
+.detailhos_col2 {
+	width: 70%;
+	text-align: left;
+	margin: 10px;
+	font-family: aria;
+	background: blue;
+	ww
+}
 </style>
 
 <body>
@@ -38,13 +52,40 @@ body {
 			<div class="col-sm-8" style="">
 
 				<h2 style="text-align: center; padding: 20px">병원 이름</h2>
-				<p
-					style="width: 90%; background: #27487e; padding: 25px; color: white; margin: 0px 5%; font-size: 20px; text-align: center;">
-					<strong style="font-size: 30px; font-weight: 600;">50%
-						할인이벤트 진행중!</strong> <br> <br> "( 기간 : 8월 1일 ~ 8월 31일 )" <br>
-					<b> ※ 대학병원급 시설※ </b> <br> <b>※ 추가비용 절대 없음※ </b>
-				</p>
 
+
+				<table class="table" style = "width:70%;">
+
+					<tbody>
+						<tr>
+							<td class="detailhos_col1">병원 소개</td>
+							<td class="detailhos_col2" style = "padding:20px;">인천을 대표하는 종합병원</td>
+
+						</tr>
+						<tr>
+							<td class="detailhos_col1">주소</td>
+							<td class="detailhos_col2">인천 남구 독배로 503 (숭의동,현대유비스병원)</td>
+
+						</tr>
+						<tr>
+							<td class="detailhos_col1">운영시간</td>
+							<td class="detailhos_col2">평일 07:50~17:00 / 토요일 07:50~12:00
+								/ 일요일 및 공휴일 휴무</td>
+
+						</tr>
+						<tr>
+							<td class="detailhos_col1">전화번호</td>
+							<td class="detailhos_col2">032-890-5722</td>
+
+						</tr>
+						<tr>
+							<td class="detailhos_col1">검진항목</td>
+							<td class="detailhos_col2">평일 07:50~17:00 / 토요일 07:50~12:00
+								/ 일요일 및 공휴일 휴무</td>
+
+						</tr>
+					</tbody>
+				</table>
 
 
 			</div>
@@ -54,7 +95,7 @@ body {
 
 
 
-			<div class="col-sm-2" ></div>
+			<div class="col-sm-2"></div>
 		</div>
 
 	</div>
@@ -69,7 +110,7 @@ body {
 			var urlpath = $(location).attr("pathname");
 			if (urlpath.includes("/smarthealth/detailHospital")) {
 	
-			
+	
 				$("#sub_menulabel_name").text("병원 상세정보");
 				$("#sub_menulabel_loc").text("병원 상세정보 보기");
 			}

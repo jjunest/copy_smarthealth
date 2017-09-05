@@ -102,7 +102,7 @@ body {
 						alt="Los Angeles" style="width: 100%; height: 600px"> </a>
 					<div class="carousel-caption">
 						<h3>사진 1</h3>
-						<p>안녕하세요 똑똑한 검진 1입니다.</p>
+						<p>안녕하세요 모두의 검진 1입니다.</p>
 					</div>
 				</div>
 
@@ -111,7 +111,7 @@ body {
 						alt="Chicago" style="width: 100%; height: 600px"></a>
 					<div class="carousel-caption">
 						<h3>사진 2</h3>
-						<p>안녕하세요 똑똑한 검진 2입니다.</p>
+						<p>안녕하세요 모두의 검진 2입니다.</p>
 					</div>
 				</div>
 
@@ -120,7 +120,7 @@ body {
 						alt="New York" style="width: 100%; height: 600px"></a>
 					<div class="carousel-caption">
 						<h3>사진 3</h3>
-						<p>안녕하세요 똑똑한 검진 3입니다.</p>
+						<p>안녕하세요 모두의 검진 3입니다.</p>
 					</div>
 				</div>
 
@@ -142,23 +142,23 @@ body {
 			<div class="col-sm-4 homebox homebox_1">
 				<p style="padding: 5px; font-size: 40pxs;">&nbsp서비스소개</p>
 				<p style="padding: 5px; font-size: 20px;">
-					명실상부한 대한민국 헬스업계 <br>최고의 그룹 "똑똑한 검진"
+					명실상부한 대한민국 헬스업계 <br>최고의 그룹 "모두의 검진"
 
 				</p>
 			</div>
 			<div class="col-sm-4 homebox homebox_2">
 				<p style="padding: 5px; font-size: 40pxs;">&nbsp건강검진정보</p>
 				<p style="padding: 5px; font-size: 20px;">
-					똑똑한검진에서 제공하는 건강정보를 확인하고 <br>미리 건강을 챙기세요
+					모두의검진에서 제공하는 건강정보를 확인하고 <br>미리 건강을 챙기세요
 
 				</p>
 
 
 			</div>
 			<div class="col-sm-4 homebox homebox_3">
-				<p style="padding: 5px; font-size: 40pxs;">&nbsp똑똑한검진 상담센터</p>
+				<p style="padding: 5px; font-size: 40pxs;">&nbsp모두의검진 상담센터</p>
 				<p style="padding: 5px; font-size: 20px;">
-					명실상부한 대한민국 헬스업계 <br>최고의 그룹 "똑똑한 검진"
+					명실상부한 대한민국 헬스업계 <br>최고의 그룹 "모두의 검진"
 
 				</p>
 

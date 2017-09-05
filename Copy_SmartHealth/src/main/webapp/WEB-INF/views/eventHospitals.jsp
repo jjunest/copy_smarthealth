@@ -35,8 +35,7 @@ body {
 			<div class="col-sm-2"></div>
 			<div class="col-sm-8" style="">
 
-				<h2 style="text-align: center; padding: 20px">할인
-					이벤트 병원</h2>
+				<h2 style="text-align: center; padding: 20px">할인 이벤트 병원</h2>
 				<p
 					style="width: 90%; background: #27487e; padding: 25px; color: white; margin: 0px 5%; font-size: 20px; text-align: center;">
 					<strong style="font-size: 30px; font-weight: 600;">50%
@@ -49,11 +48,11 @@ body {
 				<div class="row" style="margin: 20px">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -64,11 +63,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -79,11 +78,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -94,11 +93,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -109,11 +108,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -124,11 +123,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -139,11 +138,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -154,11 +153,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -169,11 +168,11 @@ body {
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="detailHospital"><img src="resources/images/event3_big.jpg"
-								alt="..."></a>
+							<a href="detailHospital"><img
+								src="resources/images/event3_big.jpg" alt="..."></a>
 							<div class="caption">
-								<h3>Thumbnail label</h3>
-								<p>...</p>
+								<h3>모두의 검진 제휴 병원</h3>
+								<p>- 병원 설명 부분-</p>
 								<p style="text-align: center;">
 									<a href="detailHospital" class="btn btn-primary" role="button"
 										style="display: block;">Button</a>
@@ -214,7 +213,7 @@ body {
 
 
 
-			<div class="col-sm-2" ></div>
+			<div class="col-sm-2"></div>
 		</div>
 
 	</div>

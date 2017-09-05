@@ -39,8 +39,8 @@ body {
 			<div class="col-sm-8 widget"
 				style="background: white; text-align: center; padding-top: 30px">
 
-				<div>
-					똑똑한 검진
+				<div style = "font-size: 40px;">
+					모두의 검진
 					<h1 style="margin: 1px; color: #3f5e97">프리미엄 헬스 케어 서비스 !!</h1>
 				</div>
 				<div style="margin: 10px">
@@ -55,7 +55,7 @@ body {
 					</div>
 					<div class="col-sm-4"
 						style="font-family: serif; font-size: 16px; padding: 20px; text-align: left; position: relative;">
-						<p>저희 똑똑한검진은, 국내최초 프리미엄 헬스케어 서비스를 제공합니다. 전국에 대학병원급 제휴로, 가까운 병원
+						<p>저희 모두의 검진은, 국내최초 프리미엄 헬스케어 서비스를 제공합니다. 전국에 대학병원급 제휴로, 가까운 병원
 							및 센터에서 최상의 시설 및 장비로 수준높은 의료서비스 및 검진프로그램을 제공하며,</p>
 						<br>
 						<p>건강검진에서 끝나는 것이 아닌, 검진 후 이상 발견시 한국 최고의 수준높은 병원들과 연계하여 치료까지

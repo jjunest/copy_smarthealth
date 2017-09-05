@@ -15,7 +15,7 @@ body{
 font-size: 22px;
 }
 .navbar-brand {
-	background-image: url('resources/images/logo.png');
+	background-image: url('resources/images/logo2.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 200px;
