@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.apache.ibatis.session.SqlSession;
 
+import com.innovest.dto.HospitalDto_Test;
 import com.innovest.dto.MemberDto;
 
 public class MemberDao {
@@ -57,5 +58,9 @@ public class MemberDao {
 		return update_result;
 	}
 	
-
+	public int insertPublicDataByObj(HospitalDto_Test insertObj) {
+		IDao dao = sqlsession.getMapper(IDao.class);
+		int insertPublicData_result = dao.insertPublicData_Test(insertObj);
+		return insertPublicData_result;
+	}
 }

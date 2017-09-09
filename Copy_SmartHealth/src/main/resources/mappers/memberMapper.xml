@@ -23,7 +23,8 @@
 		INSERT INTO admin
 		(admin_id, cmd,
 		admin_pw)
-		VALUES (#{admin_id},#{cmd},#{admin_pw})
+		VALUES
+		(#{admin_id},#{cmd},#{admin_pw})
 	</insert>
 
 	<update id="updateDatabase">
@@ -31,7 +32,14 @@
 		cmd = {}
 	</update>
 
-
+	<insert id="insertPublicData_Test">
+		INSERT INTO hospital_testdb
+		(hmcNm, hcmNo,
+		hmcTelNo,
+		locAddr, locPostNo, cxVl, cyVl, exmdrFaxNo, ciDoCd,siGunGuCd)
+		VALUES
+		(#{hmcNm},#{hcmNo},#{hmcTelNo},#{locAddr},#{locPostNo},#{cxVl},#{cyVl},#{exmdrFaxNo},#{ciDoCd},#{siGunGuCd})
+	</insert>
 
 </mapper>
 

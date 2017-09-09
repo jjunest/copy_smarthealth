@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import com.innovest.dto.HospitalDto_Test;
 import com.innovest.dto.MemberDto;
 
 
@@ -21,6 +22,6 @@ public interface IDao {
 	
 	public int updateDatabase (Integer cmd);
 	
-	
+	public int insertPublicData_Test(HospitalDto_Test public_insertObj);
 	
 }
