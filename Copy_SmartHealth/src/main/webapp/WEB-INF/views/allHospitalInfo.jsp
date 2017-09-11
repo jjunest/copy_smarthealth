@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%
 	String cp = request.getContextPath();
 %>
@@ -147,100 +148,32 @@ body {
 
 				<!-- 지역별 검색 네비게이션 끝 -->
 
-
-				<table class="table table-striped" style="margin-top: 40px;">
-					<thead>
-						<tr style="">
-							<th class="allhos_col1">병원 사진</th>
-							<th class="allhos_col2">지역/병원명</th>
-							<th class="allhos_col3">주소</th>
-							<th class="allhos_col4">상세정보</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-						<tr>
-							<td class="allhos_col1"><a href="#"><img
-									src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
-							<td class="allhos_col2">경기/용인시청병원</td>
-							<td class="allhos_col3">경기도 용인시 수지구 풍덕천1동 623-12 태영빌딩 7층</td>
-							<td class="allhos_col4"><a href="#"
-								class="btn btn-info btn-lg" role="button">바로가기</a></td>
-						</tr>
-					</tbody>
-				</table>
-
+				<div class="table-responsive">
+					<table class="table table-striped" style="margin-top: 40px;">
+						<thead>
+							<tr style="">
+								<th class="allhos_col1">병원 사진</th>
+								<th class="allhos_col2">지역/병원명</th>
+								<th class="allhos_col3">주소</th>
+								<th class="allhos_col4">상세정보</th>
+							</tr>
+						</thead>
+						<tbody>
+							<c:if test="${not empty result_list}">
+								<c:forEach var="listValue" items="${result_list}">
+									<tr>
+										<td class="allhos_col1"><a href="#"><img
+												src='resources/images/allhospital1.jpg' style="width: 100%"></a></td>
+										<td class="allhos_col2">${listValue.hmcNm}</td>
+										<td class="allhos_col3">${listValue.locAddr}</td>
+										<td class="allhos_col4"><a href="${listValue.hcmNo}"
+											class="btn btn-info btn-lg" role="button">바로가기</a></td>
+									</tr>
+								</c:forEach>
+							</c:if>
+						</tbody>
+					</table>
+				</div>
 
 			</div>
 
@@ -254,19 +187,26 @@ body {
 
 
 		</div>
-	
+
 		<!--  페이지게이션 시작! -->
+		<fmt:parseNumber var="pNo_share" value="${(pNo-1)/5}"
+			integerOnly="true" />
+
+
 		<div class="row" style="border-top: 1px solid #ccc;">
 			<nav style="text-align: center">
 			<ul class="pagination">
 				<li><a href="#" aria-label="Previous"> <span
 						aria-hidden="true">&laquo;</span>
 				</a></li>
-				<li><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">4</a></li>
-				<li><a href="#">5</a></li>
+
+				<li id="pageNavi1"><a
+					href="allHospitalInfo?pNo=${pNo_share*5+1}">${pNo_share*5+1}</a></li>
+				<li id="pageNavi2"><a href="allHospitalInfo?pNo=${pNo_share*5+2}">${pNo_share*5+2}</a></li>
+				<li id="pageNavi3"><a
+					href="allHospitalInfo?pNo=${pNo_share*5+3}">${pNo_share*5+3}</a></li>
+				<li id="pageNavi4"><a href="allHospitalInfo?pNo=${pNo_share*5+4}">${pNo_share*5+4}</a></li>
+				<li id="pageNavi0"><a href="allHospitalInfo?pNo=${pNo_share*5+5}">${pNo_share*5+5}</a></li>
 				<li><a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span>
 				</a></li>
 			</ul>
@@ -274,9 +214,8 @@ body {
 		</div>
 
 		<!--  페이지게이션 끝! -->
+
 	</div>
-
-
 	<jsp:include page="footer.jsp"></jsp:include>
 
 	<script>
@@ -298,10 +237,10 @@ body {
 				$(this).addClass('city_on');
 			});
 	
+			var activePageNum = ${pNo%5};
+			$("#pageNavi"+activePageNum).addClass("active");
 	
 		});
 	</script>
-
-
 </body>
 </html>

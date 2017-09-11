@@ -2,7 +2,7 @@ package com.innovest.dto;
 
 public class HospitalDto_Test {
 
-	public int rcdno;
+	
 	public String hmcNm;
 	public String hcmNo;
 	public String hmcTelNo;
@@ -11,14 +11,14 @@ public class HospitalDto_Test {
 	public String cxVl;
 	public String cyVl;
 	public String exmdrFaxNo;
-	public String ciDoCd;
+	public String siDoCd;
 	public String siGunGuCd;
 
 	
 	
 	
 	public HospitalDto_Test(String hmcNm, String hcmNo, String hmcTelNo, String locAddr, String locPostNo, String cxVl,
-			String cyVl, String exmdrFaxNo, String ciDoCd, String siGunGuCd) {
+			String cyVl, String exmdrFaxNo, String siDoCd, String siGunGuCd) {
 		super();
 		this.hmcNm = hmcNm;
 		this.hcmNo = hcmNo;
@@ -28,17 +28,11 @@ public class HospitalDto_Test {
 		this.cxVl = cxVl;
 		this.cyVl = cyVl;
 		this.exmdrFaxNo = exmdrFaxNo;
-		this.ciDoCd = ciDoCd;
+		this.siDoCd = siDoCd;
 		this.siGunGuCd = siGunGuCd;
 	}
 
-	public int getRcdno() {
-		return rcdno;
-	}
 
-	public void setRcdno(int rcdno) {
-		this.rcdno = rcdno;
-	}
 
 	public String getHmcNm() {
 		return hmcNm;
@@ -104,12 +98,12 @@ public class HospitalDto_Test {
 		this.exmdrFaxNo = exmdrFaxNo;
 	}
 
-	public String getCiDoCd() {
-		return ciDoCd;
+	public String getsiDoCd() {
+		return siDoCd;
 	}
 
-	public void setCiDoCd(String ciDoCd) {
-		this.ciDoCd = ciDoCd;
+	public void setsiDoCd(String siDoCd) {
+		this.siDoCd = siDoCd;
 	}
 
 	public String getSiGunGuCd() {

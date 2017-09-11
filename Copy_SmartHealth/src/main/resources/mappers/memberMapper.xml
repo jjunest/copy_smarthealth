@@ -36,10 +36,25 @@
 		INSERT INTO hospital_testdb
 		(hmcNm, hcmNo,
 		hmcTelNo,
-		locAddr, locPostNo, cxVl, cyVl, exmdrFaxNo, ciDoCd,siGunGuCd)
+		locAddr, locPostNo, cxVl, cyVl, exmdrFaxNo, siDoCd,siGunGuCd)
 		VALUES
-		(#{hmcNm},#{hcmNo},#{hmcTelNo},#{locAddr},#{locPostNo},#{cxVl},#{cyVl},#{exmdrFaxNo},#{ciDoCd},#{siGunGuCd})
+		(#{hmcNm},#{hcmNo},#{hmcTelNo},#{locAddr},#{locPostNo},#{cxVl},#{cyVl},#{exmdrFaxNo},#{siDoCd},#{siGunGuCd})
 	</insert>
 
+	<insert id="insertPublicData_Test_Detail">
+		INSERT INTO hospital_testdb_detail
+		(hmcNo,
+		buildingName,
+		buildingHo,
+		gunmulFl, cityBusStopName, cityBusStopInfo,
+		subwayStopName, subwayInfo, subwayDirect,
+		villageBusStopName,villageBusInfo)
+		VALUES
+		(#{hmcNo},#{buildingName},#{buildingHo},#{gunmulFl},#{cityBusStopName},#{cityBusStopInfo},#{subwayStopName},#{subwayInfo},#{subwayDirect},#{villageBusStopName},#{villageBusInfo})
+	</insert>
+
+	<select id="selectAllhosDTO" resultType="com.innovest.dto.HospitalDto_Test">
+		SELECT * FROM hospital_testdb LIMIT #{offset}, 10
+	</select>
 </mapper>
 
